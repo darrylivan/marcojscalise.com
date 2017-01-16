@@ -1,25 +1,3 @@
-<<<<<<< HEAD
-![](http://jpsierens.com/wp-content/uploads/2016/06/react-eco-wp.gif)
-
-# webpack-react-redux
-A boilerplate for playing around with react, redux and react-router with the help of webpack.
-
-Contains: 
-
-* a working example of a filterable table which you can play around with (look below).
-* ES6 - 7 Support with Babel
-* Redux dev tools to help you keep track of the app's state
-* Routing
-* hot module replacement support so you can change modules or react components without having to reload the browser
-* a webpack production config so you can build the app and make it ready for production
-* Sass support, just import your styles wherever you need them
-* eslint to keep your js readable
-* much more...
-
-
-
-![](http://jpsierens.com/wp-content/uploads/2016/06/filterableTable-1.gif)
-
 
 ## Run the app
 
@@ -57,6 +35,5 @@ I went ahead and wrote a detailed series of posts on this project for you. I hop
 
 ## Why doesn't it have async?
 To keep it unopinionated. You choose what async library you want. If you want to check out a full example with async in it, check this simple [todo-app](https://github.com/jpsierens/todo-app) that uses redux-sagas.
-=======
+
 # marcojscalise.com
->>>>>>> 0874cf1889b72beb973ce8b08069aa8050070981
