@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0b8a426-fd54-407f-93ca-9e5aba117fc9" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/marcojscalise_com_node_modules.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/marcojscalise.com.iml" afterPath="$PROJECT_DIR$/.idea/marcojscalise.com.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.eslintrc" afterPath="$PROJECT_DIR$/.eslintrc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/App.js" afterPath="$PROJECT_DIR$/app/components/App.js" />
     </list>
     <ignored path="marcojscalise.com.iws" />
@@ -52,8 +48,20 @@
       <file leaf-file-name="App.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/components/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="3" lean-forward="false" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
+            <state relative-caret-position="210">
+              <caret line="41" column="63" lean-forward="false" selection-start-line="41" selection-start-column="63" selection-end-line="41" selection-end-column="63" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".eslintrc" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.eslintrc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="235">
+              <caret line="170" column="6" lean-forward="false" selection-start-line="170" selection-start-column="6" selection-end-line="170" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -109,16 +117,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="colors.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/cssReserve/colors.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="colors.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/cssReserve/colors.css">
           <provider selected="true" editor-type-id="text-editor">
@@ -141,10 +139,16 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>--&gt;</find>
+      <find>style=&quot;</find>
+      <find>&quot;</find>
+      <find>jsx</find>
     </findStrings>
     <replaceStrings>
       <replace>{ /*  &lt;!--</replace>
       <replace>--&gt; */</replace>
+      <replace>style={{</replace>
+      <replace>: &quot;none&quot; }}</replace>
+      <replace>'</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -160,7 +164,6 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/webpack.config.js" />
         <option value="$PROJECT_DIR$/app/styles/home.scss" />
-        <option value="$PROJECT_DIR$/.eslintrc" />
         <option value="$PROJECT_DIR$/app/routes.js" />
         <option value="$PROJECT_DIR$/app/components/ProductRow.js" />
         <option value="$PROJECT_DIR$/app/components/ProductTable.js" />
@@ -180,6 +183,7 @@
         <option value="$PROJECT_DIR$/app/index.tpl.html" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/.eslintrc" />
         <option value="$PROJECT_DIR$/app/components/App.js" />
       </list>
     </option>
@@ -589,12 +593,12 @@
       <option name="presentableId" value="Default" />
       <updated>1484534840862</updated>
       <workItem from="1484534842413" duration="5583000" />
-      <workItem from="1485143931419" duration="1795000" />
+      <workItem from="1485143931419" duration="3529000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7378000" />
+    <option name="totallyTimeSpent" value="9112000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1817" y="126" width="1434" height="815" extended-state="0" />
@@ -743,6 +747,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -750,13 +755,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.eslintrc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="117" column="7" lean-forward="false" selection-start-line="117" selection-start-column="7" selection-end-line="117" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -871,6 +870,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -886,6 +886,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-262">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -893,6 +894,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -985,11 +987,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.eslintrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="170" column="6" lean-forward="false" selection-start-line="170" selection-start-column="6" selection-end-line="170" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/components/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="3" lean-forward="false" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
-          <folding />
+        <state relative-caret-position="210">
+          <caret line="41" column="63" lean-forward="false" selection-start-line="41" selection-start-column="63" selection-end-line="41" selection-end-column="63" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
