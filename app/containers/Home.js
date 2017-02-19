@@ -10,7 +10,7 @@ import {home} from '../styles/home.scss';
 const Home = ({ }) => {
   return (
     <div className={home}>
-      Marco J Scalise. Attorney At Law
+      Marco J Scalise. Attorney At Law.
 
     </div>
   );

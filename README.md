@@ -1,3 +1,4 @@
+# marcojscalise.com
 
 ## Run the app
 
@@ -36,4 +37,3 @@ I went ahead and wrote a detailed series of posts on this project for you. I hop
 ## Why doesn't it have async?
 To keep it unopinionated. You choose what async library you want. If you want to check out a full example with async in it, check this simple [todo-app](https://github.com/jpsierens/todo-app) that uses redux-sagas.
 
-# marcojscalise.com
