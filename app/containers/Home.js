@@ -5,13 +5,27 @@ import React, {PropTypes} from 'react';
 import {connect} from 'react-redux';
 // import {filterTable} from '../actions';
 // import ProductTable from '../components/ProductTable';
-import {home} from '../styles/home.scss';
+// import {home} from '../styles/home.scss';
 
 const Home = ({ }) => {
+  const divStyle = {
+    padding: '80px 0',
+    backgroundImage: "url('images/parallax/home/6.jpg')"
+  };
   return (
-    <div className={home}>
-      Marco J Scalise. Attorney At Law.
+    <div >
+      <div className="section parallax dark notopmargin noborder"
+        style={ divStyle }
+        data-stellar-background-ratio="0.4">
+        <div className="container center clearfix">
+          <div className="emphasis-title">
+            <h2>Marco J Scalise.  Attorney At Law.</h2>
+            <p className="lead topmargin-sm">
+              Practicing law and serving Larimer County since 1994. </p>
+          </div>
 
+        </div>
+      </div>
     </div>
   );
 };

@@ -2,114 +2,90 @@ import React, {PropTypes} from 'react';
 // import {Link} from 'react-router';
 import {footer} from '../styles/footer.scss';
 
+const logoPadding = {
+  paddingTop: '12px',
+  paddingBottom: '11px'
+};
 const App = ({ children }) =>
   <div>
-      <header id='header' className='sticky-style-2'>
+    <header id='header' className='transparent-header full-header sticky-header'>
+        <div id='header-wrap'>
+        <div className='container clearfix'>
+          <div id='primary-menu-trigger'><i className='icon-reorder'></i></div>
+          { /* <!-- Logo
+          ============================================= -->
+          */ }
+          <div id='logo' >
+              <a href='/' className='standard-logo' style={ logoPadding }>
+                  <span >
+                  Marco J. Scalise
+                  </span>
+              </a>
+              <a href='/' className='retina-logo'  style={ logoPadding }>
+                  <span >
+                  Marco J. Scalise
+                  </span>
+              </a>
+          </div>{ /*  <!-- #logo end --> */ }
+            { /*  <!-- Primary Navigation
+            ============================================= --> */ }
+            <nav id='primary-menu' className=''>
+                    <ul className='sf-js-enabled' style={{touchAction: 'pan-y'}}>
 
-          <div className='container clearfix'>
-              { /* <!-- Logo
-              ============================================= -->
-              */ }
-              <div id='logo' className='divcenter'>
-                  <a href='/' className='standard-logo'>
-                      <h1>
-                      Marco J. Scalise.
-                      Attorney At Law
-                      </h1>
-                  </a>
-              </div>{ /*  <!-- #logo end --> */ }
-          </div>
+                      <li className="current sub-menu"><a className="" href="/">
+                          <div>Home</div>
+                      </a></li>
+                      <li className="sub-menu"><a href="/criminalLaw">
+                          <div>Criminal Law</div>
+                      </a></li>
+                      <li className="sub-menu"><a href="/familyLaw">
+                          <div>Family Law</div>
+                      </a></li>
+                      <li className="sub-menu"><a href="/about">
+                          <div>About</div>
+                      </a></li>
+                      <li className="sub-menu"><a href="/contact">
+                          <div>Contact</div>
+                      </a></li>
+                      <li className=""><a href="phone:970.613.1270">
+                          <div>970-613-1270</div>
+                      </a></li>
 
-          <div id='header-wrap'>
+                    </ul>
+            </nav>{ /*  <!-- #primary-menu end --> */ }
+        </div>
+      </div>
 
-              { /*  <!-- Primary Navigation
-              ============================================= --> */ }
-              <nav id='primary-menu' className='style-2 center'>
-
-                  <div className='container clearfix'>
-
-                      <div id='primary-menu-trigger'><i className='icon-reorder'></i></div>
-
-                      <ul className='sf-js-enabled' style={{touchAction: 'pan-y'}}>
-
-                        <li className="current sub-menu"><a className="" href="/">
-                            <div>Home</div>
-                        </a></li>
-                        <li className="sub-menu"><a href="/criminalLaw">
-                            <div>Criminal Law</div>
-                        </a></li>
-                        <li className="sub-menu"><a href="/familyLaw">
-                            <div>Family Law</div>
-                        </a></li>
-                        <li className="sub-menu"><a href="/about">
-                            <div>About</div>
-                        </a></li>
-                        <li className="sub-menu"><a href="/contact">
-                            <div>Contact</div>
-                        </a></li>
-                        <li className=""><a href="phone:970.613.1270">
-                            <div>970-613-1270</div>
-                        </a></li>
-
-                      </ul>
-
-                  </div>
-
-              </nav>{ /*  <!-- #primary-menu end --> */ }
-
-          </div>
-
-      </header>
-
+    </header>
 
   		{ /* <!-- Content
   		============================================= --> */ }
   		<section id="content">
 
   			<div className="content-wrap">
-
+          { children }
   				<div className="container clearfix">
 
   					<div className="row clearfix">
-              { children }
 
-  						<div className="col-md-6  bottommargin">
-  							<i className="i-plain color i-large icon-line2-screen-desktop inline-block"
-                  style={{marginBottom: '20px'}}></i>
+  						<div className="col-md-6  bottommargin center">
+  							{ /* <i className="i-plain color i-large icon-line2-screen-desktop inline-block"
+                  style={{marginBottom: '20px'}}></i> */}
   							<div className="heading-block nobottomborder" style={{marginBottom: '15px'}}>
   								<span className="before-heading">Experience.</span>
-  								<h4>Criminal Law</h4>
+  								<h4><a href='/criminalLaw' >Criminal Law</a></h4>
   							</div>
-  							<p>
-                  <ul className="iconlist">
-    								<li><i className="icon-legal"></i> DUI</li>
-    								<li><i className="icon-legal"></i> Felonies</li>
-    								<li><i className="icon-legal"></i> Misdemeanors</li>
-                    <li><i className="icon-legal"></i> Drugs</li>
-                    <li><i className="icon-legal"></i> Domestic Violence</li>
-                    <li><i className="icon-legal"></i> Juvenile</li>
-                    <li><i className="icon-legal"></i> Traffic Violations</li>
-  							  </ul>
-                </p>
+
   						</div>
 
-  						<div className="col-md-6  bottommargin">
-  							<i className="i-plain color i-large icon-line2-energy inline-block"
-                  style={{marginBottom: '20px'}}></i>
+  						<div className="col-md-6  bottommargin center ">
+  							{ /* <i className="i-plain color i-large icon-line2-energy inline-block"
+                  style={{marginBottom: '20px'}}></i> */}
   							<div className="heading-block nobottomborder"
                   style={{marginBottom: '15px'}}>
   								<span className="before-heading">Local.</span>
-  								<h4>Family Law</h4>
+  								<h4><a href='/familyLaw' >Family Law</a></h4>
   							</div>
-  							<p>
-
-                <ul className="iconlist">
-                  <li><i className="icon-legal"></i> Divorce</li>
-                  <li><i className="icon-legal"></i> Parental Responsibility / Custody</li>
-                  <li><i className="icon-legal"></i> Paternity</li>
-                  <li><i className="icon-legal"></i> Grandparent Rights</li>
-                </ul>
-                </p>
   						</div>
 
   					</div>
@@ -267,7 +243,13 @@ const App = ({ children }) =>
   					</div>
 
 
-  					<div className="line"></div>
+            <div className="line"></div>
+
+            <div id="google-map5"
+              style={ { height: '400px', marginBottom: '20px' } }
+              className="gmap"></div>
+
+            <div className="line"></div>
 
   					<h3 className="center">What <span>Clients</span> Say</h3>
 

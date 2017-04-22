@@ -13,10 +13,6 @@
     <link rel="stylesheet" href="css/style.css" type="text/css"/>
     <link rel="stylesheet" href="css/dark.css" type="text/css"/>
 
-    <!-- Agency Demo Specific Stylesheet -->
-    <link rel="stylesheet" href="css/agency/agency.css" type="text/css"/>
-    <!-- / -->
-
     <link rel="stylesheet" href="css/font-icons.css" type="text/css"/>
     <link rel="stylesheet" href="css/animate.css" type="text/css"/>
     <link rel="stylesheet" href="css/magnific-popup.css" type="text/css"/>
@@ -31,7 +27,8 @@
     <title>Marco J. Scalise | Attorney At Law</title>
 
     <meta name="description"
-          content="Marco J. Scalise, Attorney At Law, Criminal Law, Family Law.  Loveland Colorado, Larimer County.">
+          content="Marco J. Scalise, Attorney At Law, Criminal Law, Family Law.
+          Loveland Colorado, Larimer County.">
 
 </head>
 
@@ -48,14 +45,51 @@
 <!-- Go To Top
 ============================================= -->
 <div id="gotoTop" class="icon-angle-up"></div>
+
 <!-- External JavaScripts
 ============================================= -->
 <script type="text/javascript" src="js/jquery.js"></script>
 <script type="text/javascript" src="js/plugins.js"></script>
 
+<script type="text/javascript" src="https://maps.google.com/maps/api/js?key=YOUR_API_KEY"></script>
+<script type="text/javascript" src="js/jquery.gmap.js"></script>
+
 <!-- Footer Scripts
 ============================================= -->
 <script type="text/javascript" src="js/functions.js"></script>
+
+
+<script type="text/javascript">
+
+  $('#google-map5').gMap({
+     address: 'Australia',
+     maptype: 'ROADMAP',
+     zoom: 3,
+     markers: [
+      {
+        address: "Melbourne, Australia",
+        html: "Melbourne, Australia"
+      },
+      {
+        address: "Sydney, Australia",
+        html: "Sydney, Australia"
+      },
+      {
+        address: "Perth, Australia",
+        html: "Perth, Australia"
+      }
+     ],
+     doubleclickzoom: false,
+     controls: {
+       panControl: true,
+       zoomControl: true,
+       mapTypeControl: false,
+       scaleControl: false,
+       streetViewControl: false,
+       overviewMapControl: false
+    }
+  });
+</script>
 
 </body>
 
