@@ -22,6 +22,21 @@
 
     <link rel="stylesheet" href="css/colors.css" type="text/css"/>
 
+    <style>
+        .google-maps {
+            position: relative;
+            padding-bottom: 25%; // This is the aspect ratio
+            height: 0;
+            overflow: hidden;
+        }
+        .google-maps iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100% !important;
+            height: 100% !important;
+        }
+    </style>
     <!-- Document Title
     ============================================= -->
     <title>Marco J. Scalise | Attorney At Law</title>
@@ -51,45 +66,9 @@
 <script type="text/javascript" src="js/jquery.js"></script>
 <script type="text/javascript" src="js/plugins.js"></script>
 
-<script type="text/javascript" src="https://maps.google.com/maps/api/js?key=YOUR_API_KEY"></script>
-<script type="text/javascript" src="js/jquery.gmap.js"></script>
-
 <!-- Footer Scripts
 ============================================= -->
 <script type="text/javascript" src="js/functions.js"></script>
-
-
-<script type="text/javascript">
-
-  $('#google-map5').gMap({
-     address: 'Australia',
-     maptype: 'ROADMAP',
-     zoom: 3,
-     markers: [
-      {
-        address: "Melbourne, Australia",
-        html: "Melbourne, Australia"
-      },
-      {
-        address: "Sydney, Australia",
-        html: "Sydney, Australia"
-      },
-      {
-        address: "Perth, Australia",
-        html: "Perth, Australia"
-      }
-     ],
-     doubleclickzoom: false,
-     controls: {
-       panControl: true,
-       zoomControl: true,
-       mapTypeControl: false,
-       scaleControl: false,
-       streetViewControl: false,
-       overviewMapControl: false
-    }
-  });
-</script>
 
 </body>
 

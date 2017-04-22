@@ -14,12 +14,13 @@ const Home = ({ }) => {
   };
   return (
     <div >
-      <div className="section parallax dark notopmargin noborder"
+      <div className="section parallax dark notopmargin noborder "
         style={ divStyle }
         data-stellar-background-ratio="0.4">
         <div className="container center clearfix">
           <div className="emphasis-title">
             <h2>Marco J Scalise.  Attorney At Law.</h2>
+            <h3><a href="phone:970.613.1270">970-613-1270</a></h3>
             <p className="lead topmargin-sm">
               Practicing law and serving Larimer County since 1994. </p>
           </div>

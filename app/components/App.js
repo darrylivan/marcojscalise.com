@@ -68,7 +68,7 @@ const App = ({ children }) =>
 
   					<div className="row clearfix">
 
-  						<div className="col-md-6  bottommargin center">
+  						<div className="col-md-6  nobottommargin center">
   							{ /* <i className="i-plain color i-large icon-line2-screen-desktop inline-block"
                   style={{marginBottom: '20px'}}></i> */}
   							<div className="heading-block nobottomborder" style={{marginBottom: '15px'}}>
@@ -87,11 +87,106 @@ const App = ({ children }) =>
   								<h4><a href='/familyLaw' >Family Law</a></h4>
   							</div>
   						</div>
-
   					</div>
+          </div>
 
-  					<div className="line notopmargin"></div>
+          <div className="section footer-stick notopmargin">
 
+            <h4 className="uppercase center">What <span>Clients</span> Say?</h4>
+
+            <div className="fslider testimonial testimonial-full" data-animation="fade" data-arrows="false">
+              <div className="flexslider">
+                <div className="slider-wrap">
+                  <div className="slide">
+                    <div className="testi-image">
+                      <a href="#"><img src="images/marcoScalise.jpg" alt="Customer Testimonails" /></a>
+                    </div>
+                    <div className="testi-content">
+                      <p>Marco Scalice gets it. He truly understands people.
+                      He was honest and upfront about the realities of divorce.
+                      He was kind yet explained what to expect to help prepare
+                      me for the proceedings and life after divorce. His calming
+                      personality helped ease the tension that arose in the
+                      courtroom. I have and will continue to recommend his legal
+                      services to many friends. I will be forever grateful for
+                      his guidance and assistance with my divorce.
+                      </p>
+                      <div className="testi-meta">
+                        Michelle H.
+                        <span>.</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="slide">
+                    <div className="testi-image">
+                      <a href="#"><img src="images/marcoScalise.jpg" alt="Customer Testimonails" /></a>
+                    </div>
+                    <div className="testi-content">
+                      <p>Dear Marco, I just wanted to take a moment to thank
+                      you for your hard work and dedication. I was very pleased
+                      with your knowledge and professionalism throughout the
+                      process. I greatly appreciate the advice you gave, as well
+                      as your kindness and patience. Your main goal was in the
+                       best interest of my child and you helped me close the case
+                        with excellent results. It was a pleasure working with
+                         you and I would highly recommend you to all needing
+                          help with your services.</p>
+                      <div className="testi-meta">
+                        Danielle M.
+                        <span>.</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="slide">
+                    <div className="testi-image">
+                      <a href="#"><img src="images/marcoScalise.jpg" alt="Customer Testimonails" /></a>
+                    </div>
+                    <div className="testi-content">
+                      <p>Macro&rsquo;s caring professionalism and genuine concern
+                      for my situation helped me get through an ugly time in my
+                      life. His honest and straightforward advice coupled with
+                      his legal expertise helped create a resolution that was
+                      agreeable and fair to both parties.  His witty, intelligent
+                      personality helped provided comfort and assurance during my
+                      divorce proceeding. </p>
+                      <div className="testi-meta">
+                        Ed A.
+                        <span>.</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="slide">
+                    <div className="testi-image">
+                      <a href="#"><img src="images/marcoScalise.jpg" alt="Customer Testimonails" /></a>
+                    </div>
+                    <div className="testi-content">
+                      <p>I was referred to Marco by another very good attorney.
+                      After meeting him, I understood why. Marco is very competent,
+                       reasonable, and compassionate, yet tough. Everything he
+                       told me in consultations was totally accurate. When we
+                       realized we were headed to court, Marco was absolutely
+                       prepared. I felt completely at ease knowing that Marco
+                       was representing me. After the smoke of divorce court
+                       had cleared, I knew I had chosen the right attorney.
+                       I would highly recommend Marco to anyone wanting a
+                       very good attorney!</p>
+                      <div className="testi-meta">
+                      Jeff G.
+                        <span>.</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>
+            </div>
+
+
+        <div className="container clearfix">
+
+          <div className="row clearfix">
+          { /*  }
   					<h3 className="center">Some <span>Latest</span> Works</h3>
 
   					<div id="oc-portfolio" className="owl-carousel portfolio-carousel carousel-widget" data-margin="1" data-loop="true" data-nav="true" data-pagi="false"data-items-xxs="1" data-items-xs="2" data-items-sm="3" data-items-md="4" data-items-lg="4">
@@ -242,54 +337,17 @@ const App = ({ children }) =>
 
   					</div>
 
-
             <div className="line"></div>
+            { */  }
 
-            <div id="google-map5"
-              style={ { height: '400px', marginBottom: '20px' } }
-              className="gmap"></div>
-
-            <div className="line"></div>
-
-  					<h3 className="center">What <span>Clients</span> Say</h3>
-
-  					<div className="fslider testimonial testimonial-full noshadow noborder nopadding divcenter"
-              data-animation="fade" data-arrows="false"
-              style={{maxWidth: '700px'}}>
-  						<div className="flexslider">
-  							<div className="slider-wrap">
-  								<div className="slide">
-  									<div className="testi-content">
-  										<p>Similique fugit repellendus expedita excepturi iure perferendis provident quia eaque. Repellendus, vero numquam?</p>
-  										<div className="testi-meta">
-  											Steve Jobs
-  											<span>Apple Inc.</span>
-  										</div>
-  									</div>
-  								</div>
-  								<div className="slide">
-  									<div className="testi-content">
-  										<p>Natus voluptatum enim quod necessitatibus quis expedita harum provident eos obcaecati id culpa corporis molestias.</p>
-  										<div className="testi-meta">
-										Collis Taeed
-										<span>Envato Inc.</span>
-									</div>
-								</div>
-							</div>
-							<div className="slide">
-								<div className="testi-content">
-									<p>Incidunt deleniti blanditiis quas aperiam recusandae consequatur ullam quibusdam cum libero illo rerum!</p>
-									<div className="testi-meta">
-										John Doe
-										<span>XYZ Inc.</span>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
           </div>
-          </div>
-          </div>
+        </div>
+        <div className='google-maps'>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d97232.10536024057!2d-105.074812!3d40.3977!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876953019483ef99%3A0xa03191559f341b44!2s1351+N+Cleveland+Ave%2C+Loveland%2C+CO+80537!5e0!3m2!1sen!2sus!4v1492878219979"
+            width="800" height="200"
+            frameborder="0" style={ { border: '0' } } allowfullscreen></iframe>
+        </div>
 
 		  </section> { /* <!-- #content end --> */ }
 
