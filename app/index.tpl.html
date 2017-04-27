@@ -25,7 +25,7 @@
     <style>
         .google-maps {
             position: relative;
-            padding-bottom: 25%; // This is the aspect ratio
+            padding-bottom: 25%; 
             height: 0;
             overflow: hidden;
         }
@@ -35,6 +35,21 @@
             left: 0;
             width: 100% !important;
             height: 100% !important;
+        }
+        .map-container {
+            width: 100%;
+            margin: 50px 0 0px;
+            pointer-events: none;
+            position: relative; /* IE needs a position other than static */
+        }
+        .map-container iframe{
+            width: 100%;
+            display: block;
+            pointer-events: none;
+            position: relative; /* IE needs a position other than static */
+        }
+        .map-container iframe.clicked{
+            pointer-events: auto;
         }
     </style>
     <!-- Document Title
@@ -69,7 +84,15 @@
 <!-- Footer Scripts
 ============================================= -->
 <script type="text/javascript" src="js/functions.js"></script>
+<script type="text/javascript">
+$('.map-container')
+	.click(function(){
+			$(this).find('iframe').addClass('clicked')})
+	.mouseleave(function(){
+			$(this).find('iframe').removeClass('clicked')});
 
+$('#copyrightYear').text(new Date().getFullYear());
+</script>
 </body>
 
 </html>

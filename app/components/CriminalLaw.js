@@ -14,53 +14,90 @@ const CriminalLaw = () =>
           options to you to allow you to make an
           informed decision about your case.</span>
   		</div>
-      <p>
-        <ul className="iconlist">
-          <li><i className="icon-legal"></i> DUI</li>
-          <li><i className="icon-legal"></i> Felonies</li>
-          <li><i className="icon-legal"></i> Misdemeanors</li>
-          <li><i className="icon-legal"></i> Drugs</li>
-          <li><i className="icon-legal"></i> Domestic Violence</li>
-          <li><i className="icon-legal"></i> Juvenile</li>
-          <li><i className="icon-legal"></i> Traffic Violations</li>
-        </ul>
-      </p>
-			<div className="fslider testimonial testimonial-full noshadow noborder nopadding divcenter"
-        data-animation="fade" data-arrows="false"
-        style={ { maxWidth: '700px' } } >
-				<div className="flexslider">
-					<div className="slider-wrap">
-						<div className="slide">
-							<div className="testi-content">
-								<p>
-                I will defend your rights to the fullest extent the law allows. </p>
-								<div className="testi-meta">
-									Marco J Scalise
-									<span>Integrity.</span>
-								</div>
-							</div>
+
+			<div className='container clearfix bottomborder'>
+
+				<div className="col_one_third">
+					<div className="feature-box fbox-rounded fbox-effect">
+						<div className="fbox-icon">
+							<i className="icon-ok i-alt"></i>
 						</div>
-						<div className="slide">
-							<div className="testi-content">
-								<p>Natus voluptatum enim quod necessitatibus quis expedita harum provident eos obcaecati id culpa corporis molestias.</p>
-								<div className="testi-meta">
-									Collis Taeed
-									<span>Envato Inc.</span>
-								</div>
-							</div>
+						<h3>DUI</h3>
+						<p></p>
+					</div>
+				</div>
+
+				<div className="col_one_third">
+					<div className="feature-box fbox-rounded fbox-effect">
+						<div className="fbox-icon">
+							<i className="icon-ok i-alt"></i>
 						</div>
-						<div className="slide">
-							<div className="testi-content">
-								<p>Incidunt deleniti blanditiis quas aperiam recusandae consequatur ullam quibusdam cum libero illo rerum!</p>
-								<div className="testi-meta">
-									John Doe
-									<span>XYZ Inc.</span>
-								</div>
-							</div>
+						<h3>Felonies</h3>
+						<p></p>
+					</div>
+				</div>
+
+				<div className="col_one_third col_last">
+					<div className="feature-box fbox-rounded fbox-effect">
+						<div className="fbox-icon">
+							<i className="icon-ok i-alt"></i>
 						</div>
+						<h3>Misdemeanors</h3>
+						<p></p>
+					</div>
+				</div>
+
+				<div className="col_one_third">
+					<div className="feature-box fbox-rounded fbox-effect">
+						<div className="fbox-icon">
+							<i className="icon-ok i-alt"></i>
+						</div>
+						<h3>Drugs</h3>
+						<p></p>
+					</div>
+				</div>
+
+				<div className="col_one_third">
+					<div className="feature-box fbox-rounded fbox-effect">
+						<div className="fbox-icon">
+							<i className="icon-ok i-alt"></i>
+						</div>
+						<h3>Domestic Violence</h3>
+						<p></p>
+					</div>
+				</div>
+
+				<div className="col_one_third col_last">
+					<div className="feature-box fbox-rounded fbox-effect">
+						<div className="fbox-icon">
+							<i className="icon-ok i-alt"></i>
+						</div>
+						<h3>Juvenile</h3>
+						<p></p>
+					</div>
+				</div>
+
+					<div className="col_one_third">
+					<div className="feature-box fbox-rounded fbox-effect">
+						<div className="fbox-icon">
+							<i className="icon-ok i-alt"></i>
+						</div>
+						<h3>Traffic Violations</h3>
+						<p></p>
 					</div>
 				</div>
 			</div>
+
+			<div className="divider"><i className="icon-circle"></i></div>
+
+			<div className='text-center'>
+				<blockquote className="quote">
+					<p className='lead'>I will defend your rights to the fullest extent the law allows.</p>
+					<footer>Marco J. Scalise</footer>
+				</blockquote>
+			</div>
+
+			<div className="divider"><i className="icon-circle"></i></div>
     </div>
   </div>;
 

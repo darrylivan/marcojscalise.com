@@ -30,28 +30,28 @@ const App = ({ children }) =>
             { /*  <!-- Primary Navigation
             ============================================= --> */ }
             <nav id='primary-menu' className=''>
-                    <ul className='sf-js-enabled' style={{touchAction: 'pan-y'}}>
+							<ul className='sf-js-enabled' style={{touchAction: 'pan-y'}}>
 
-                      <li className="current sub-menu"><a className="" href="/">
-                          <div>Home</div>
-                      </a></li>
-                      <li className="sub-menu"><a href="/criminalLaw">
-                          <div>Criminal Law</div>
-                      </a></li>
-                      <li className="sub-menu"><a href="/familyLaw">
-                          <div>Family Law</div>
-                      </a></li>
-                      <li className="sub-menu"><a href="/about">
-                          <div>About</div>
-                      </a></li>
-                      <li className="sub-menu"><a href="/contact">
-                          <div>Contact</div>
-                      </a></li>
-                      <li className=""><a href="phone:970.613.1270">
-                          <div>970-613-1270</div>
-                      </a></li>
+								<li className="current sub-menu"><a className="" href="/">
+										<div>Home</div>
+								</a></li>
+								<li className="sub-menu"><a href="/criminalLaw">
+										<div>Criminal Law</div>
+								</a></li>
+								<li className="sub-menu"><a href="/familyLaw">
+										<div>Family Law</div>
+								</a></li>
+								<li className="sub-menu"><a href="/about">
+										<div>About</div>
+								</a></li>
+								<li className="sub-menu"><a href="/contact">
+										<div>Contact</div>
+								</a></li>
+								<li className=""><a href="phone:970.613.1270">
+										<div>970-613-1270</div>
+								</a></li>
 
-                    </ul>
+							</ul>
             </nav>{ /*  <!-- #primary-menu end --> */ }
         </div>
       </div>
@@ -184,175 +184,88 @@ const App = ({ children }) =>
 
 
         <div className="container clearfix">
-
-          <div className="row clearfix">
-          { /*  }
-  					<h3 className="center">Some <span>Latest</span> Works</h3>
-
-  					<div id="oc-portfolio" className="owl-carousel portfolio-carousel carousel-widget" data-margin="1" data-loop="true" data-nav="true" data-pagi="false"data-items-xxs="1" data-items-xs="2" data-items-sm="3" data-items-md="4" data-items-lg="4">
-
-  						<div className="oc-item">
-  							<div className="iportfolio">
-  								<div className="portfolio-image">
-  									<a href="portfolio-single.html">
-  										<img src="images/portfolio/4/1.jpg" alt="Open Imagination" />
-  									</a>
-  									<div className="portfolio-overlay">
-  										<a href="images/portfolio/full/1.jpg" className="left-icon" data-lightbox="image"><i className="icon-line-plus"></i></a>
-  										<a href="portfolio-single.html" className="right-icon"><i className="icon-line-ellipsis"></i></a>
-  									</div>
-  								</div>
-  								<div className="portfolio-desc">
-  									<h3><a href="portfolio-single.html">Open Imagination</a></h3>
-  									<span><a href="#">Media</a>, <a href="#">Icons</a></span>
-  								</div>
-  							</div>
-  						</div>
-
-  						<div className="oc-item">
-  							<div className="iportfolio">
-  								<div className="portfolio-image">
-  									<a href="portfolio-single.html">
-  										<img src="images/portfolio/4/2.jpg" alt="Locked Steel Gate" />
-  									</a>
-  									<div className="portfolio-overlay">
-  										<a href="images/portfolio/full/2.jpg" className="left-icon" data-lightbox="image"><i className="icon-line-plus"></i></a>
-  										<a href="portfolio-single.html" className="right-icon"><i className="icon-line-ellipsis"></i></a>
-  									</div>
-  								</div>
-  								<div className="portfolio-desc">
-  									<h3><a href="portfolio-single.html">Locked Steel Gate</a></h3>
-  									<span><a href="#">Illustrations</a></span>
-  								</div>
-  							</div>
-  						</div>
-
-  						<div className="oc-item">
-  							<div className="iportfolio">
-  								<div className="portfolio-image">
-  									<a href="#">
-  										<img src="images/portfolio/4/3.jpg" alt="Mac Sunglasses" />
-  									</a>
-  									<div className="portfolio-overlay">
-  										<a href="http://vimeo.com/89396394" className="left-icon" data-lightbox="iframe"><i className="icon-line-play"></i></a>
-  										<a href="portfolio-single-video.html" className="right-icon"><i className="icon-line-ellipsis"></i></a>
-  									</div>
-  								</div>
-  								<div className="portfolio-desc">
-  									<h3><a href="portfolio-single-video.html">Mac Sunglasses</a></h3>
-  									<span><a href="#">Graphics</a>, <a href="#">UI Elements</a></span>
-  								</div>
-  							</div>
-  						</div>
-
-  						<div className="oc-item">
-  							<div className="iportfolio">
-  								<div className="portfolio-image">
-  									<a href="portfolio-single.html">
-  										<img src="images/portfolio/4/5.jpg" alt="Console Activity" />
-  									</a>
-  									<div className="portfolio-overlay">
-  										<a href="images/portfolio/full/5.jpg" className="left-icon" data-lightbox="image"><i className="icon-line-plus"></i></a>
-  										<a href="portfolio-single.html" className="right-icon"><i className="icon-line-ellipsis"></i></a>
-  									</div>
-  								</div>
-  								<div className="portfolio-desc">
-  									<h3><a href="portfolio-single.html">Console Activity</a></h3>
-  									<span><a href="#">UI Elements</a>, <a href="#">Media</a></span>
-  								</div>
-  							</div>
-  						</div>
-
-  						<div className="oc-item">
-  							<div className="iportfolio">
-  								<div className="portfolio-image">
-  									<a href="portfolio-single-video.html">
-  										<img src="images/portfolio/4/7.jpg" alt="Backpack Contents" />
-  									</a>
-  									<div className="portfolio-overlay">
-  										<a href="http://www.youtube.com/watch?v=kuceVNBTJio" className="left-icon" data-lightbox="iframe"><i className="icon-line-play"></i></a>
-  										<a href="portfolio-single-video.html" className="right-icon"><i className="icon-line-ellipsis"></i></a>
-  									</div>
-  								</div>
-  								<div className="portfolio-desc">
-  									<h3><a href="portfolio-single-video.html">Backpack Contents</a></h3>
-  									<span><a href="#">UI Elements</a>, <a href="#">Icons</a></span>
-  								</div>
-  							</div>
-  						</div>
-
-  						<div className="oc-item">
-  							<div className="iportfolio">
-  								<div className="portfolio-image">
-  									<a href="portfolio-single.html">
-  										<img src="images/portfolio/4/8.jpg" alt="Sunset Bulb Glow" />
-  									</a>
-  									<div className="portfolio-overlay">
-  										<a href="images/portfolio/full/8.jpg" className="left-icon" data-lightbox="image"><i className="icon-line-plus"></i></a>
-  										<a href="portfolio-single.html" className="right-icon"><i className="icon-line-ellipsis"></i></a>
-  									</div>
-  								</div>
-  								<div className="portfolio-desc">
-  									<h3><a href="portfolio-single.html">Sunset Bulb Glow</a></h3>
-  									<span><a href="#">Graphics</a></span>
-  								</div>
-  							</div>
-  						</div>
-
-  						<div className="oc-item">
-  							<div className="iportfolio">
-  								<div className="portfolio-image">
-  									<a href="portfolio-single-video.html">
-  										<img src="images/portfolio/4/10.jpg" alt="Study Table" />
-  									</a>
-  									<div className="portfolio-overlay">
-  										<a href="http://vimeo.com/91973305" className="left-icon" data-lightbox="iframe"><i className="icon-line-play"></i></a>
-  										<a href="portfolio-single-video.html" className="right-icon"><i className="icon-line-ellipsis"></i></a>
-  									</div>
-  								</div>
-  								<div className="portfolio-desc">
-  									<h3><a href="portfolio-single-video.html">Study Table</a></h3>
-  									<span><a href="#">Graphics</a>, <a href="#">Media</a></span>
-  								</div>
-  							</div>
-  						</div>
-
-  						<div className="oc-item">
-  							<div className="iportfolio">
-  								<div className="portfolio-image">
-  									<a href="portfolio-single.html">
-  										<img src="images/portfolio/4/11.jpg" alt="Workspace Stuff" />
-  									</a>
-  									<div className="portfolio-overlay">
-  										<a href="images/portfolio/full/11.jpg" className="left-icon" data-lightbox="image"><i className="icon-line-plus"></i></a>
-  										<a href="portfolio-single.html" className="right-icon"><i className="icon-line-ellipsis"></i></a>
-  									</div>
-  								</div>
-  								<div className="portfolio-desc">
-  									<h3><a href="portfolio-single.html">Workspace Stuff</a></h3>
-  									<span><a href="#">Media</a>, <a href="#">Icons</a></span>
-  								</div>
-  							</div>
-  						</div>
-
-  					</div>
-
-            <div className="line"></div>
-            { */  }
-
-          </div>
         </div>
+				<div className='map-container'>
         <div className='google-maps'>
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d97232.10536024057!2d-105.074812!3d40.3977!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876953019483ef99%3A0xa03191559f341b44!2s1351+N+Cleveland+Ave%2C+Loveland%2C+CO+80537!5e0!3m2!1sen!2sus!4v1492878219979"
             width="800" height="200"
             frameborder="0" style={ { border: '0' } } allowfullscreen></iframe>
         </div>
+        </div>
 
 		  </section> { /* <!-- #content end --> */ }
 
-    <footer className={footer}>
-    </footer>
+	  { /* <!-- Footer
+		============================================= --> */}
+		<footer id="footer" className="dark">
+
+			{ /* <!-- Copyrights
+			============================================= --> */ }
+			<div id="copyrights">
+
+				<div className="container clearfix">
+
+					<div className="col_half">
+						<h3>Marco J. Scalise / Attorney At Law</h3>
+						<span class='lead'>Serving Larimer County since 1994</span>
+						<hr/>
+						Copyrights &copy; <span id='copyrightYear'></span> All Rights Reserved Marco J. Scalise.
+
+					</div>
+
+					<div className="col_half col_last tright">
+						<div className="copyrights-menu copyright-links fright clearfix">
+							<a href="/">Home</a>/<a href="criminalLaw">Criminal Law</a>/<a href="familyLaw">Family Law</a>/<a href="about">About</a>/<a href="contact">Contact</a>/<a href="tel:9706131270">970-613-1270</a>
+						</div>
+						<div className="fright clearfix">
+							<a href="#" className="social-icon si-small si-borderless nobottommargin si-facebook">
+								<i className="icon-facebook"></i>
+								<i className="icon-facebook"></i>
+							</a>
+
+							<a href="#" className="social-icon si-small si-borderless nobottommargin si-twitter">
+								<i className="icon-twitter"></i>
+								<i className="icon-twitter"></i>
+							</a>
+
+							<a href="#" className="social-icon si-small si-borderless nobottommargin si-gplus">
+								<i className="icon-gplus"></i>
+								<i className="icon-gplus"></i>
+							</a>
+
+							<a href="#" className="social-icon si-small si-borderless nobottommargin si-pinterest">
+								<i className="icon-pinterest"></i>
+								<i className="icon-pinterest"></i>
+							</a>
+
+							<a href="#" className="social-icon si-small si-borderless nobottommargin si-vimeo">
+								<i className="icon-vimeo"></i>
+								<i className="icon-vimeo"></i>
+							</a>
+
+							<a href="#" className="social-icon si-small si-borderless nobottommargin si-github">
+								<i className="icon-github"></i>
+								<i className="icon-github"></i>
+							</a>
+
+							<a href="#" className="social-icon si-small si-borderless nobottommargin si-yahoo">
+								<i className="icon-yahoo"></i>
+								<i className="icon-yahoo"></i>
+							</a>
+
+							<a href="#" className="social-icon si-small si-borderless nobottommargin si-linkedin">
+								<i className="icon-linkedin"></i>
+								<i className="icon-linkedin"></i>
+							</a>
+						</div>
+					</div>
+
+				</div>
+
+			</div>
+
+		</footer>{ /* <!-- footer end --> */ }
   </div>;
 
 
