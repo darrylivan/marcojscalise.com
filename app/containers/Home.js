@@ -10,7 +10,9 @@ import {connect} from 'react-redux';
 const Home = ({ }) => {
   const divStyle = {
     padding: '80px 0',
-    backgroundImage: "url('images/parallax/home/6.jpg')"
+    backgroundImage: "url('images/parallax/home/6.jpg')",
+    // backgroundImage: "url('images/mountains.jpg')",
+    backgroundPosition: 'center'
   };
   return (
     <div >

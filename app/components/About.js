@@ -14,7 +14,7 @@ const About = () =>
 
     <div className="container">
       <div className="row common-height clearfix">
-
+        <div style={ { height: '30px' }}></div>
         <div className="col-sm-4 col-padding"
           style={ {
             background: "url('images/marcoScalise.jpg') right center no-repeat",

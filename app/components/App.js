@@ -32,19 +32,19 @@ const App = ({ children }) =>
             <nav id='primary-menu' className=''>
 							<ul className='sf-js-enabled' style={{touchAction: 'pan-y'}}>
 
-								<li className="current sub-menu"><a className="" href="/">
+								<li className="sub-menu home"><a className="" href="/">
 										<div>Home</div>
 								</a></li>
-								<li className="sub-menu"><a href="/criminalLaw">
+								<li className="sub-menu criminalLaw"><a href="/criminalLaw">
 										<div>Criminal Law</div>
 								</a></li>
-								<li className="sub-menu"><a href="/familyLaw">
+								<li className="sub-menu familyLaw"><a href="/familyLaw">
 										<div>Family Law</div>
 								</a></li>
-								<li className="sub-menu"><a href="/about">
+								<li className="sub-menu about"><a href="/about">
 										<div>About</div>
 								</a></li>
-								<li className="sub-menu"><a href="/contact">
+								<li className="sub-menu contact"><a href="/contact">
 										<div>Contact</div>
 								</a></li>
 								<li className=""><a href="phone:970.613.1270">
@@ -209,8 +209,6 @@ const App = ({ children }) =>
 					<div className="col_half">
 						<h3>Marco J. Scalise / Attorney At Law</h3>
 						<span class='lead'>Serving Larimer County since 1994</span>
-						<hr/>
-						Copyrights &copy; <span id='copyrightYear'></span> All Rights Reserved Marco J. Scalise.
 
 					</div>
 
@@ -261,6 +259,28 @@ const App = ({ children }) =>
 						</div>
 					</div>
 
+					<div className="col_half">
+						<hr/>
+						Copyrights &copy; <span id='copyrightYear'></span> All Rights Reserved Marco J. Scalise.
+					</div>
+
+					<div className="col_half col_last">
+											<hr/>
+						<div className="row">
+							<div className="col-md-4">
+								1351 N. Cleveland St.<br/>
+								Loveland, CO 80537
+							</div>
+							<div className="col-md-4">
+								marco@marcojscalise.com<br/>
+							</div>
+								<div className="col-md-4">
+								970-613-1270<br/>
+							</div>
+						</div>
+
+
+					</div>
 				</div>
 
 			</div>

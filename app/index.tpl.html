@@ -51,6 +51,11 @@
         .map-container iframe.clicked{
             pointer-events: auto;
         }
+
+        .content-wrap {
+            position: relative;
+            padding: 0px 0;
+        }
     </style>
     <!-- Document Title
     ============================================= -->
@@ -92,6 +97,20 @@ $('.map-container')
 			$(this).find('iframe').removeClass('clicked')});
 
 $('#copyrightYear').text(new Date().getFullYear());
+
+$(document).ready(function() {
+    //pure javascript
+    var pathname = window.location.pathname.substr(1);
+    console.log('pathname', pathname);
+
+    if (pathname.length > 0) {
+        const menuItem = jQuery('#primary-menu li.' + pathname);
+        menuItem.addClass('current');
+    } else {
+        jQuery('#primary-menu li.home').addClass('current');
+    }
+
+});
 </script>
 </body>
 
