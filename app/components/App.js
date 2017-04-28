@@ -3,7 +3,7 @@ import React, {PropTypes} from 'react';
 import {footer} from '../styles/footer.scss';
 
 const logoPadding = {
-  paddingTop: '12px',
+  paddingTop: '16px',
   paddingBottom: '11px'
 };
 const App = ({ children }) =>
@@ -18,12 +18,12 @@ const App = ({ children }) =>
           <div id='logo' >
               <a href='/' className='standard-logo' style={ logoPadding }>
                   <span >
-                  Marco J. Scalise
+                  MARCO J. SCALISE
                   </span>
               </a>
               <a href='/' className='retina-logo'  style={ logoPadding }>
                   <span >
-                  Marco J. Scalise
+                  MARCO J. SCALISE
                   </span>
               </a>
           </div>{ /*  <!-- #logo end --> */ }

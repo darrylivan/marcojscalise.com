@@ -4,11 +4,19 @@
 import React from 'react';
 
 const Contact = () =>
+    <div>
+        <section id="page-title">
+			<div className="container clearfix">
+				<h1>Contact Me</h1>
+				<span>Call or email for an appointment.</span>
+				<ol className="breadcrumb">
+					<li><a href="/">Home</a></li>
+					<li className="active">Contact</li>
+				</ol>
+			</div>
+		</section>
+    <div style={ { height: '20px' }}></div>
     <div className="container clearfix">
-        <div className="heading-block topmargin-sm">
-  			<h2>Contact Me</h2>
-  			<span>Call or email for an appointment.</span>
-  		</div>
         <div className="row clear-bottommargin">
 
             <div className="col-md-4 col-sm-6 bottommargin clearfix">
@@ -43,6 +51,7 @@ const Contact = () =>
             </div>
         </div>
       <div className="divider"><i className="icon-circle"></i></div>
+      </div>
     </div>;
 
 export default Contact;

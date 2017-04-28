@@ -12,6 +12,18 @@ const yearsSince = _calculateAge(beginDate);
 const About = () =>
   <div>
 
+    <section id="page-title">
+			<div className="container clearfix">
+				<h1>About Marco</h1>
+				<span>Education and experience.</span>
+				<ol className="breadcrumb">
+					<li><a href="/">Home</a></li>
+					<li className="active">About</li>
+				</ol>
+			</div>
+		</section>
+    <div style={ { height: '10px' }}></div>
+
     <div className="container">
       <div className="row common-height clearfix">
         <div style={ { height: '30px' }}></div>

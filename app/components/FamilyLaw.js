@@ -4,13 +4,20 @@
 import React from 'react';
 
 const FamilyLaw = () =>
-<div className="container clearfix">
+  <div>
+    <section id="page-title">
+			<div className="container clearfix">
+				<h1>Family Law</h1>
+				<span>Experience fighting for your rights.</span>
+				<ol className="breadcrumb">
+					<li><a href="/">Home</a></li>
+					<li className="active">Family Law</li>
+				</ol>
+			</div>
+		</section>
+    <div style={ { height: '40px' }}></div>
+    <div className="container clearfix">
     <div className="row clearfix">
-
-      <div className="heading-block topmargin-sm">
-  			<h2>Calling Colorado Home Since 1994</h2>
-  			<span>Experience fighting for your rights.</span>
-  		</div>
 
 			<div className='container clearfix bottomborder'>
 				<div className="col_one_third">
@@ -65,6 +72,7 @@ const FamilyLaw = () =>
 			</div>
 
       <div className="divider"><i className="icon-circle"></i></div>
+    </div>
     </div>
   </div>;
 

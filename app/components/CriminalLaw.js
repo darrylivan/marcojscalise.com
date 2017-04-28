@@ -4,17 +4,20 @@
 import React from 'react';
 
 const CriminalLaw = () =>
+  <div>
+    <section id="page-title">
+			<div className="container clearfix">
+				<h1>Criminal Law</h1>
+				<span>Clear explanations of your options.</span>
+				<ol className="breadcrumb">
+					<li><a href="/">Home</a></li>
+					<li className="active">Criminal Law</li>
+				</ol>
+			</div>
+		</section>
+    <div style={ { height: '40px' }}></div>
   <div className="container clearfix">
     <div className="row clearfix">
-
-      <div className="heading-block topmargin-sm">
-  			<h2>Serving Northern Colorado Since 1994</h2>
-  			<span>I handle felonies, misdemeanors, domestic violence, traffic offenses,
-          DUI cases and municipal court violations.  I clearly explain your
-          options to you to allow you to make an
-          informed decision about your case.</span>
-  		</div>
-
 			<div className='container clearfix bottomborder'>
 
 				<div className="col_one_third">
@@ -98,6 +101,7 @@ const CriminalLaw = () =>
 			</div>
 
 			<div className="divider"><i className="icon-circle"></i></div>
+    </div>
     </div>
   </div>;
 
